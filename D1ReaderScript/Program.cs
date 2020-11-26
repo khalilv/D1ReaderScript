@@ -11,7 +11,7 @@ namespace D1ReaderScript
         {
             while (true)
             {
-                await StartListener("http://10.0.0.49/events");
+                await StartListener("http://10.0.0.49/events"); //listen for start signal from esp
                 Console.WriteLine("STARTING");
 
             }
